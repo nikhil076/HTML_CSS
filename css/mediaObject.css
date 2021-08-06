@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(219, 179, 126,0.4);
+    padding: 1em;
+    border-radius: 30px;
+    max-width: 24em;
+}
+.container img{
+    margin-right: 1em;
+    max-width: 10em;
+    max-height: 4em;
+}
+.container .text{
+    flex: 1;
+}
+.container .heading{
+    margin: 0 0 .5em;
+}

@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100vh;
+    font-weight: bold;
+}
+
+.navContainer {
+    flex: 1 0 0;
+    background-color: cadetblue;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 5 0 0;
+}
+
+.headerContainer,
+.footerContainer {
+    min-height: 20vh;
+    background-color: lightgreen;
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 0 0;
+}
+
+.mainContainerItem {
+    flex: 3 0 0;
+    min-height: 60vh;
+}
+
+.sideBarContainerItem {
+    flex: 1 0 0;
+    background-color: lightyellow;
+}
+
+.navContainer,
+.headerContainer,
+.footerContainer,
+.mainContainerItem,
+.sideBarContainerItem {
+    padding: 1em;
+}
